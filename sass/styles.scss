@@ -1,0 +1,119 @@
+$brightBlue: #2F184E;
+$cream: #CFD0CA;
+
+body{
+	font-family: verdana, sans-serif;
+}
+
+
+nav{
+	background-color: $brightBlue;
+	height: 100px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+
+	
+
+	ul{
+		display: none;
+	}
+
+	&:after{
+		content:'';
+		display: block;
+		clear: both;
+	
+
+
+
+#logo{
+	width: 10%;
+	min-width: 100px;
+	min-height: 100px;
+
+}
+
+#logo{
+	float: left;
+	max-height: 100px;
+}
+
+#hamburger{
+	float: right;
+	padding-right: 5px;
+}
+
+#facebook{
+	position: absolute;
+	left: 70%;
+	top: 3%;
+	border-radius: 5px 20px 5px;
+
+}
+
+#twitter{
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	border-radius: 5px 20px 5px;
+}
+
+}
+
+
+
+@media (min-width: 600px) {
+  #hamburger{ 
+  	display: none; 
+  }
+
+  #facebook{
+	position: absolute;
+	left: 92%;
+	top: 3%;
+	border-radius: 5px 20px 5px;
+
+}
+
+#twitter{
+	position: absolute;
+	left: 92%;
+	top: 50%;
+	border-radius: 5px 20px 5px;
+}
+
+	nav{
+		margin: 0 auto;
+	}
+
+  	ul{
+  		display: inline;
+
+
+
+  	li{
+	  	background-color: red;
+	  	display: inline;
+	  	color: $cream;
+	  	height: 100px;
+	  	margin-left: 20px;
+	  	margin-top: 40px;
+	  	font-size: 20px;
+
+  }
+	
+}
+
+
+
+@media (min-width: 800px){
+
+
+
+} 
+
+
+
+
+
